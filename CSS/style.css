@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', system-ui;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+.header>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.again-btn {
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.between-number {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.find-number {
+    font-size: 90px;
+    text-align: center;
+    background-color: hotpink;
+    padding: 20px 30px;
+    width: fit-content;
+    position: relative;
+    top: 70px;
+    left: 45%;
+}
+
+.header {
+    border-bottom: 10px solid white;
+}
+
+.right {
+    margin-bottom: 0px;
+}
+
+.right p {
+    font-size: 24px;
+}
+
+.left {
+    margin-bottom: 0px;
+}
+
+.guess {
+    font-size: 30px;
+    text-align: center;
+    width: 185px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    display: block;
+}
+
+.check-btn {
+    font-size: 27px;
+    margin-top: 20px;
+    padding: 10px;
+}
