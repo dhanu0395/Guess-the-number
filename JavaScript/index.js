@@ -9,7 +9,6 @@ let highscore = 0;
 document.getElementById('check-btn').addEventListener('click', ()=>{
 
     let guessNum = Number(document.getElementById('guess').value);
-    console.log(guessNum);
 
     // if there is no number in text field
     if(guessNum==""){
